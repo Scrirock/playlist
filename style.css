@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow: hidden;
 }
 
 html {
@@ -28,6 +27,8 @@ body {
 
 .fas.fa-music{
     font-size: 2.8rem;
+    position: relative;
+    top: -1rem;
 }
 
 #menu{
@@ -50,7 +51,7 @@ body {
 }
 
 #create{
-    height: 4.5rem;
+    height: 5rem;
     display: inline-block;
     padding-top: 8px;
     margin-right: 2rem;
@@ -86,4 +87,32 @@ ol, li{
     width: 100%;
     height: 100vh;
     transition-duration: 1s;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.playlistStyle{
+    float: right;
+}
+
+.fas.fa-play, .auteur{
+    margin-left: 3rem;
+}
+
+.top{
+    height: 5rem;
+    background-color: #9dbfff;
+}
+
+.music{
+    line-height: 6rem;
+    background-color: #4d55c0;
+}
+
+.playlist{
+    width: 30rem;
+    border-radius: 1rem;
+    height: 5rem;
+    margin: 3rem;
+    overflow: hidden;
 }

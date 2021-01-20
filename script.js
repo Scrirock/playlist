@@ -20,3 +20,11 @@ document.getElementById("showTrend").addEventListener("click", ()=>{
         flag = true;
     }
 });
+
+let playlist = document.getElementsByClassName("playlist");
+for (let i of playlist){
+    i.addEventListener("click", ()=>{
+        for (let y of playlist) y.style.height = "5rem"
+        i.style.height = "auto";
+    });
+}
