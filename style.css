@@ -126,7 +126,7 @@ a{
     height: 30rem;
     background-color: #9dbfff;
     border-radius: 1rem;
-    margin-left: 650px;
+    margin-left: 40%;
     padding: 2.5rem;
     display: none;
     position: relative;
@@ -162,4 +162,27 @@ a{
 
 #title{
     margin-right: 2rem;
+}
+
+@media screen and (max-width: 600px){
+    #img, .fas.fa-music{
+        display: none;
+    }
+    #value{
+        margin-left: 30%;
+    }
+    ol, li{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    #text{
+        font-size: 1rem;
+    }
+    .fas.fa-angle-double-right{
+        font-size: 2.5rem;
+    }
+    #menu{
+        height: 3rem;
+        overflow: hidden;
+    }
 }
