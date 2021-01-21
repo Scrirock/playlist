@@ -159,3 +159,7 @@ a{
     bottom: 0;
     right: 0;
 }
+
+#title{
+    margin-right: 2rem;
+}
