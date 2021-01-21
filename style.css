@@ -95,8 +95,12 @@ ol, li{
     float: right;
 }
 
-.fas.fa-play, .auteur{
+a, .auteur{
     margin-left: 3rem;
+}
+
+a{
+    color: #000439;
 }
 
 .top{
@@ -115,4 +119,34 @@ ol, li{
     height: 5rem;
     margin: 3rem;
     overflow: hidden;
+}
+
+#value{
+    width: 300px;
+    height: 30rem;
+    background-color: #9dbfff;
+    border-radius: 1rem;
+    margin-left: 650px;
+    padding: 2.5rem;
+    display: none;
+    position: relative;
+    bottom: 100vh;
+}
+
+#explain{
+    padding-bottom: 1rem;
+}
+
+#valid{
+    padding: .5rem;
+    background-color: #000367;
+    color: #9dbfff;
+    font-size: 2.5rem;
+    margin-left: 6.5rem;
+    margin-top: 1.4rem;
+    border-radius: 99999rem;
+}
+
+.piti{
+    width: 7rem;
 }
